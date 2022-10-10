@@ -38,7 +38,9 @@ const server = http.createServer((req, res) => {
       res.statusCode = 200; // zaten herahngi bir hata olmassa varsayilan olarak esitlencek
       res.statusMessage = "Ok";
       //  res.write("File could not find");
-      res.end(file);
+      res.write(file);
+      res.end();
+      // res.end(file);
     }
   });
 });

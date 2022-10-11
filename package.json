@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/veyselguven/nodeJs-repeat#readme",
   "dependencies": {
+    "nodemon": "^1.18.9",
     "underscore": "^1.9.1"
   }
 }
